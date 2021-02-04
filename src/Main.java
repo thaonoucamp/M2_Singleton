@@ -13,7 +13,12 @@ public class Main {
         }
 
         if (luxuryCar instanceof Car) {
-            System.out.println("log 2");
+            System.out.println("car 2");
+        }
+
+        if (car instanceof LuxuryCar) {
+            System.out.println("No car");
         }
     }
 }
+// cách
